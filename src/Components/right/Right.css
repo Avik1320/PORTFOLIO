@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.right-main{
+    display: flex;
+    flex-direction: column ;
+    width: 100%;
+    height: 100%;
+    margin-left: 20%;
+}
+/* @media(min-width: 1200px){
+    .right-main{
+        max-height: 70vh;
+    }
+} */
+
+@media (max-width: 375px) {
+    .right-main{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins&display=swap');
+
+.skills-body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+.ski-title{
+    display: inline-flex;
+    /* background-color: green; */
+    margin-top: 12%;
+    margin-left: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 0.2rem;
+    font-family: 'Koulen', cursive;
+
+}
+.ski-head{
+    margin-left: 40px;
+    font-size: 20px;
+    color: grey;
+}
+.icon{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.fa-brands{
+    padding-right: 25px;
+}
+.des{
+    margin-top: 40px;
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgb(88, 86, 86);
+    font-weight: 500;
+    font-weight: 500;
+    
+}
+.items{
+    padding-top: 10px;
+}
+.level{
+    font-weight: bold;
+}

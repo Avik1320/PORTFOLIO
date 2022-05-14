@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins&display=swap');
+.about-body{
+    width: 100%;
+    height: 100vh;
+}
+.name{
+    display: inline-flex;
+    margin-top: 12%;
+    padding-left: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 0.4rem;
+    font-family: 'Koulen', cursive;
+}
+.title{
+    padding-left:  10px;
+    color: rgb(206, 104, 9);
+}
+.address{
+    padding-left: 40px;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 96, 96);
+}
+.social{
+    margin-top: 40px;   
+    padding-left: 40px;
+    
+}
+.social a{
+    padding-right: 20px;
+}
+.fa-facebook{
+    background-color: white;
+    color: rgb(83, 81, 81);
+    border-radius: 50%;
+    /* color: red; */
+}
+.fa-linkedin{
+    background-color: white;
+    color: rgb(83, 81, 81);
+    border-radius: 50%;
+}
+.fa-github{
+    background-color: white;
+    color: rgb(83, 81, 81);
+    border-radius: 50%;
+}
+.fa-brands:hover{
+    color: rgb(223, 97, 29);
+}
+.fa-envelope{
+    background-color: white;
+    color: rgb(83, 81, 81);
+    border-radius: 50%;
+}
+.button{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(119, 114, 114);
+    border: none;
+}
+.btn:hover{
+    /* color: rgb(223, 97, 29); */
+    background-color: rgb(223, 97, 29);
+}
