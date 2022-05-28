@@ -9,14 +9,10 @@
     height: 100%;
     margin-left: 20%;
 }
-/* @media(min-width: 1200px){
-    .right-main{
-        max-height: 70vh;
-    }
-} */
-
-@media (max-width: 375px) {
+ @media(max-device-width: 576px){
     .right-main{
         margin-left: 0;
+        /* background-color: green; */
     }
-}
+} 
+

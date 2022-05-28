@@ -81,3 +81,33 @@
     /* color: rgb(223, 97, 29); */
     background-color: rgb(223, 97, 29);
 }
+.btn:active{
+    background-color: rgb(223, 97, 29);
+}
+
+@media(max-device-width: 576px){
+    .right-main{
+        margin-left: 0;
+        /* background-color: green; */
+    }
+    .name{
+        /* margin-top: 15vh; */
+        font-size: 110px;
+        margin-top: 0;
+    }
+    .address{
+        font-size: 2rem;
+        color: rgb(80, 78, 78);
+    }
+    .main{
+        font-size: 2.5rem;
+        color: black;
+    }
+    .btn{
+        margin-top: 20px;
+        font-size: 2.5rem;
+    }
+    .social a{
+        font-size: 2rem;
+    }
+}

@@ -22,6 +22,38 @@
     cursor: pointer;
 
 }
+@media(max-device-width: 992px){
+    
+    .image_holder{
+        width: 23vh;
+        height: 23vh;
+        left: 22px;
+        background-color: white;
+    }
+} 
+@media(max-device-width: 768px){
+    
+    .image_holder{
+        width: 19vh;
+        height: 19vh;
+        left: 20px;
+        background-color: blue;
+    }
+} 
+@media(max-device-width: 576px){
+
+    /* .image_holder{
+           width: 13vh;
+           height: 13vh; 
+           left: 25px;
+           background-color: red;        
+        } */
+    .left_main{
+        display: none;
+        background-color: brown;
+
+    }
+}
 .navbar-nav{
     flex-direction: column;
     width: 100%;
@@ -45,8 +77,5 @@
     color: white;
 }
 
-@media (max-width: 375px) {
-    .left_main{
-        display: none;
-    }
-}
+
+

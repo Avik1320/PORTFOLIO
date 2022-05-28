@@ -33,3 +33,27 @@
         height: 40rem;
    }
 }
+@media(max-device-width: 576px){
+    .right-main{
+        margin-left: 0;
+     }
+    .edu-body{
+        margin-top: 25%;
+        font-size: 1.8srem;
+    }
+    .accordion-button{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .accordion-body{
+        font-size: 1.8rem;
+    }
+    .edu-title{
+        font-size: 4rem;
+
+    }
+    .accordion{
+        margin-top: 4%;
+    }
+    
+}

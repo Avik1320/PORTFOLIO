@@ -24,3 +24,14 @@
     font-family: 'Poppins', sans-serif;
     color: rgb(83, 80, 80);
 }
+@media(max-device-width: 576px){
+    .inter-body{
+        margin-top: 20%;
+    }
+    .inter-title{
+        font-size: 6rem;
+    }
+    .main-part{
+        font-size: 1.8rem;
+    }
+}

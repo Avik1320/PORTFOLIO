@@ -45,3 +45,26 @@
 .level{
     font-weight: bold;
 }
+@media(max-device-width: 576px)
+{
+    /* .right-main{
+        margin-left: 0;
+    } */
+    .skills-body{
+        margin-top: 25%;
+    }
+    .ski-title{
+        font-size: 6rem;
+    }
+    .ski-head{
+        margin-top: 50%;
+        font-size: 2.5rem;
+    }
+    .fa-brands{
+        font-size: 6rem;
+        padding-right: 30px;
+    }
+    .items{
+        font-size: 2rem;
+    }
+}
