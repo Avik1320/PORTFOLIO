@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://Avik1320.github.io/PORTFOLIO",
+  "homepage": "https://Avik1320.github.io/PORTFOLIO/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
