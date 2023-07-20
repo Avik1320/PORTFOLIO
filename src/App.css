@@ -2,11 +2,7 @@
     margin: 0;
     padding: 0;
 }
-/* @media(min-width: 1200px){
-    .app{
-        max-height: 30rem;
-    }
-} */
+
 @media(max-device-width: 425px)
 {
     .App{

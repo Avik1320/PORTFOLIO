@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Left.css"
-import Image1 from '../../Assests/pic.png';
+import Image1 from '../../Assests/Pic.png';
 
 const Left = () => {
   return (
