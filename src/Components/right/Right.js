@@ -1,5 +1,5 @@
 import React from 'react'
-import Interest from './Interest'
+import Project from './Project'
 import About from './About'
 import Education from './Education'
 import "./Right.css"
@@ -11,7 +11,7 @@ const  Right = () => {
       <About />
       <Education />
       <Skills />
-      <Interest />
+      <Project />
     </div>
   )
 }

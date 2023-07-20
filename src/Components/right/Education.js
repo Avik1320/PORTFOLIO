@@ -4,7 +4,7 @@ import "./Education.css"
 const Education = () => {
   return (
     <div className="edu-body" id='education'>
-      <h2 className='edu-title'>Education</h2>
+      <div className='edu-title'>Education</div>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
@@ -14,7 +14,9 @@ const Education = () => {
           </h2>
           <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-              <p>I am pursuing my Bachelor Degree in Information Technology from haldia Institute Of Technology. Currently I am in second year and my overall Grade till now is 9 CGPA. <br /><span className="year">1 year:-</span>  <br />1st Sem: 9.2 SGPA  <span className='first'>2nd Sem: 10 CGPA</span> <br /><span className="year">2nd year:-</span>  <br />3rd Sem: 9.52 SGPA <span className="second">4th Sem: </span></p>
+              <p>I am currently pursuing a degree in Information Technology at Haldia Institute of Technology, a renowned institution. With a strong focus on academic excellence and practical learning, I am gaining the skills and knowledge necessary to excel in the dynamic field of IT. Currently I am in fourth year. <br /><br />
+                <span className='btech-marks'><b>Overall CGPA: 9.41</b></span>
+              </p>
             </div>
           </div>
         </div>
@@ -26,7 +28,8 @@ const Education = () => {
           </h2>
           <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatum aut veritatis! Dignissimos optio, possimus vitae autem dolores, delectus nihil unde fugit vero accusantium alias eum expedita velit non ipsa.</p>
+              <p>I completed my high secondary education degree at Kendriya Vidyalaya, an esteemed institution known for its academic rigor and holistic development. Through comprehensive curriculum and experienced faculty, I acquired a strong foundation, fostering my intellectual growth and preparing me for future endeavors.</p>
+              <span className='btech-marks'><b>Overall Percentage: 75.4</b></span>
             </div>
           </div>
         </div>
@@ -38,7 +41,8 @@ const Education = () => {
           </h2>
           <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <p>I obtained my secondary schooling degree from Hem Sheela Model School, a prestigious institution recognized for its commitment to academic excellence and holistic development. Through their comprehensive curriculum and dedicated teachers, I gained a solid educational foundation, equipping me with the skills and knowledge necessary for future success.</p>
+              <span className='btech-marks'><b>Overall Percentage: 81.7</b></span>
             </div>
           </div>
         </div>

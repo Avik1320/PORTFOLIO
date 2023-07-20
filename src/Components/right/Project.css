@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins&display=swap');
+
+.inter-body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.inter-title{
+    /* background-color: green; */
+    display: flex;
+    width: 90%;
+    /* margin-top: 14%; */
+    justify-content: flex-start;
+    /* margin-left: 50px; */
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Koulen', cursive;
+}
+.main-part{
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(83, 80, 80);
+}
+.proj-1{
+    margin-bottom: 30px;
+}
+.proj-1 .heading a{
+    color: inherit;
+    text-decoration: none;
+    color: rgb(52, 51, 51);
+}
+.proj-1 .heading a:hover{
+    font-size: 25px;
+    color: grey;
+}
+.details li{
+    text-align: justify;
+}
+@media(max-device-width: 576px){
+    .inter-body{
+        margin-top: 20%;
+    }
+    .heading{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .inter-title{
+        font-size: 6rem;
+    }
+    .main-part{
+        font-size: 2rem;
+    }
+}

@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins&display=swap');
 
 @media(min-device-width: 426px){
-  .main-body{
+  .main-body-ham{
     display: none;
   }
 }
 
+.main-body-ham{
+  position: sticky;
+    top: 0;
+    z-index: 2;
+    margin-bottom: 30px;
+}
 
 .name-hum {
   font-weight: bold;
@@ -30,12 +36,18 @@
   color: white;
 }
 .ham-bottom{
-  height: 12vh;
-  background-color: #d78437;
+  height: 20vh;
+  background-color: #e68f3f;
+  /* opacity: 0.8; */
 }
 .link{
-  font-size: 1.8rem;
+  font-size: 3rem;
+  line-height: 5rem;
   color: white;
+  font-weight: 600;
+}
+.link:hover{
+  font-size: 3.5rem;
 }
 .item{
   list-style-type: none;

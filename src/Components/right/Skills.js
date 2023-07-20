@@ -22,9 +22,15 @@ export class Skills extends PureComponent {
             
             <div className="des">
                 <ul className="list">
-                    <li className='items'>HTML, CSS, javaScript, node.js, ReactJS : <span className="level">Intermediate</span></li>
                     <li className='items'>C, C++ : <span className="level">Advanced</span></li>
+                    <li className='items'>HTML, CSS, javaScript, node.js, ReactJS, Tailwind, MySQL : <span className="level">Intermediate</span></li>
                     <li className='items'>Java, npm, python : <span className="level">Beginner</span></li>
+                </ul>
+            </div>
+            <div className="des">
+                <span className='dev'>Developer Tools :</span>
+                <ul className="list">
+                    <li className='items'>Git, VS Code, Visual Studio : <span className="level">Advanced</span></li>
                 </ul>
             </div>
         </div>

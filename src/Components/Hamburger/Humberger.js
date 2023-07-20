@@ -15,9 +15,9 @@ const Humberger = () => {
 
     }
     return (
-        <div className='main-body'>
+        <div className='main-body-ham'>
             <div className="ham-top">
-                <span className='name-hum'>Avik Ghosh</span>
+                <span className='name-hum'>Avik Ghosh</span> 
                 <a className="icon" >
                     <i className="fa fa-bars fa-custom" onClick={handleClick} />
                 </a>
@@ -27,7 +27,7 @@ const Humberger = () => {
                     <li className="item"><a href="#about" className="link">About</a></li>
                     <li className="item"><a href="#education" className="link">Education</a></li>
                     <li className="item"><a href="#skill" className="link">Skills</a></li>
-                    <li className="item"><a href="#interest" className="link">Interest</a></li>
+                    <li className="item"><a href="#interest" className="link">Project</a></li>
                 </ul>
             </div>
 
